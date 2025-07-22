@@ -1,13 +1,14 @@
-import Navigation from './components/Navigation'
-import './App.css'
+import React from 'react';
+import Navigation from './components/Navigation';
+import Hero from './components/Hero';
+// import other sections as needed
 
-function App() {
+const App: React.FC = () => (
+  <div className="flex flex-col gap-[120px]">
+    <Navigation />
+    <Hero />
+    {/* Add other main components here */}
+  </div>
+);
 
-  return (
-    <>
-      <Navigation />
-    </>
-  )
-}
-
-export default App
+export default App;

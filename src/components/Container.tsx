@@ -6,4 +6,4 @@ const Container: React.FC<{ children: React.ReactNode }> = ({ children }) => (
   </div>
 );
 
-export default Container; 
+export default Container;

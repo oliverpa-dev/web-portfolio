@@ -3,7 +3,6 @@ import Container from './Container';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
 
-
 const Navigation: React.FC = () => {
   return (
     <nav className="py-4 w-full">
@@ -28,4 +27,4 @@ const Navigation: React.FC = () => {
   );
 };
 
-export default Navigation; 
+export default Navigation;
