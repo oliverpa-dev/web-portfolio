@@ -11,6 +11,7 @@ const App: React.FC = () => (
     <Experience />
     {/* Add other main components here */}
     <CaseStudies />
+    <Contact />
   </div>
 );
 
