@@ -10,6 +10,7 @@ const App: React.FC = () => (
     <Hero />
     <Experience />
     {/* Add other main components here */}
+    <CaseStudies />
   </div>
 );
 
